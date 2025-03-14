@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'frcHome'
+            url = uri("file:///C:/Users/Public/wpilib/2025/maven")
+        }
+        maven {
+            url = 'https://maven.revrobotics.com/'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        maven {
+            name = 'frcHome'
+            url = uri("file:///C:/Users/Public/wpilib/2025/maven")
+        }
+        maven {
+            url = 'https://maven.revrobotics.com/'
+        }
+        mavenCentral()
+    }
+}
